@@ -1,3 +1,9 @@
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,17 +63,52 @@
                 <figure>
                     <header class="heading">Login</header>
                     <div class="container signin">
-                        <h2>Already have an account? Sign in.</h2>
-                        <input type="text" name="username" placeholder="Username" pattern=".{3,}" required>
-                        <input type="password" name="password" placeholder="Password" pattern=".{8,}" required>
-                        <input type="submit" value="Login">
+                        <form action="login" method="post">
+                            <form action="/action_page.php">
+                                <div class="form-group">
+                                    <label for="email">Email address:</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd">Password:</label>
+                                    <input type="password" class="form-control" id="pwd">
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox"> Remember me</label>
+                                </div>
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </form>
                     </div>
                     <hr>
                     <div class="container signin">
-                        <h2> Add a comment </h2>
-                        <textarea rows="4" cols="50" name="comment" form="usrform" maxlength="200">
-                Enter text here...</textarea>
-                        <input type="submit" value="Submit">
+                        <form action="login" method="post">
+                        <div class="form-group">
+                            <form action="/action_page.php">
+                            <label for="name">Vārds:</label>
+                            <input type="text" class="form-control" id="name" name="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Uzvārds:</label>
+                            <input type="text" class="form-control" id="surname" name="surname">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Jūsu jautājums</label>
+                                <textarea class="form-control" id="question" rows="3" name="question"></textarea>
+                            </div>
+                            <button class="btn btn-primary" type="submit" name="save">Aizsūtīt</button>
+                        </form>
+                    </div>
+                        <?php
+                        if(isset($_POST['save'])){
+                            echo "<b>Vārds:</b>{$_POST['name']}";
+                            echo "<b>Uzvārds:</b>{$_POST['surname']}<br/>";
+                            echo "<b>Ē-pasts:</b>{$_POST['email']}<br/>";
+                            echo "<b>Jūsu jautajums:</b>{$_POST['question']}";
+                        }
+                        ?>
         </div>
         <div class="clear"></div>
     </main>

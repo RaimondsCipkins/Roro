@@ -62,15 +62,27 @@
         <div class="content">
             <div id="gallery">
                 <figure>
-                    <label for="email"><b>Email</b></label>
-                    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-
-                    <label for="psw"><b>Username</b></label>
-                    <input type="text" name="username" placeholder="Username" pattern=".{3,}" required title="Atleast 3 characters" required>
-
-                    <label for="psw-repeat"><b>Password</b></label>
-                    <input type="password" id="pwd" name="pwd" pattern=".{8,}" title="Eight or more characters" required>
-                    <button type="submit" class="registerbtn">Register</button>
+                    <form action="login" method="post">
+                        <form action="/action_page.php">
+                            <div class="form-group">
+                                <label for="name">Vārds:</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Uzvārds:</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Email:</label>
+                                <input type="email" class="form-control" id="email">
+                                <div class="form-group">
+                                    <label for="name">Telefons:</label>
+                                    <input type="email" class="form-control" id="email">
+                            <div class="checkbox">
+                                <label><input type="checkbox"> Remember me</label>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
                     </div>
                     <hr>
                     <div class="container signin">
