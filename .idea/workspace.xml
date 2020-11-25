@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82870322-0dc4-4bc5-bca0-fdc56ce35f52" name="Default Changelist" comment="">
+    <list default="true" id="82870322-0dc4-4bc5-bca0-fdc56ce35f52" name="Default Changelist" comment="2.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +26,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Roro\includes" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,12 +40,32 @@
       <option name="presentableId" value="Default" />
       <updated>1606310475734</updated>
       <workItem from="1606310477139" duration="6204000" />
-      <workItem from="1606317616014" duration="9961000" />
+      <workItem from="1606317616014" duration="14407000" />
     </task>
+    <task id="LOCAL-00001" summary="Pievienots .htacces un lapa ar kļūdu">
+      <created>1606333969346</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606333969346</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2.0">
+      <created>1606334185797</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606334185797</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pievienots .htacces un lapa ar kļūdu" />
+    <MESSAGE value="2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="162" key="#PHP" timestamp="1606314646795">
@@ -56,13 +80,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="533" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606315390033" />
+    <state x="686" y="153" key="CommitChangelistDialog2" timestamp="1606334273335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="686" y="153" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606334273335" />
+    <state x="653" y="308" key="Vcs.Push.Dialog.v2" timestamp="1606334215343">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="653" y="308" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606334215343" />
     <state x="661" y="478" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606328042532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="661" y="478" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606328042532" />
-    <state x="1248" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1606321560126">
+    <state x="1248" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1606335233125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1248" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606321560126" />
+    <state x="1248" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606335233125" />
   </component>
 </project>
