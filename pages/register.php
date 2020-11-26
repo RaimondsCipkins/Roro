@@ -25,7 +25,7 @@
                     <li><a href="../index.php">Mājas</a></li>
                     <li class="active"><a class="drop" href="#">Pages</a>
                         <ul>
-                            <li class="active"><a href="gallery.php">Galerija</a></li>
+                            <li class="active"><a href="gallery.php">Reģistrācija</a></li>
                             <li><a href="full-width.php">Produkti</a></li>
                         </ul>
                     </li>
@@ -119,7 +119,7 @@
                     }
                     ?>
 
-                    <h2>Validācija</h2>
+                    <h2>Register</h2>
                     <p><span class="error">* required field</span></p>
                     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
                         Name: <input type="text" name="name" value="<?php echo $name;?>">
@@ -135,7 +135,7 @@
                     </form>
 
                     <?php
-                    echo "<h2>Your Input:</h2>";
+                    echo "<h2>Izvade:</h2>";
                     echo $name;
                     echo "<br>";
                     echo $email;
@@ -149,12 +149,9 @@
 
     </main>
 </div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
 <div class="wrapper row4 bgded overlay" style="background-image:url('../images/demo/backgrounds/03.png');">
     <footer id="footer" class="hoc clear">
-        <!-- ################################################################################################ -->
+
         <div class="one_quarter first">
             <h6 class="heading">Id urna scelerisque</h6>
             <p class="btmspace-30">Lacinia vivamus et dictum ex id malesuada augue sed</p>

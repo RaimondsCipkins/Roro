@@ -66,20 +66,21 @@ error_reporting(E_ALL);
                         <form action="login" method="post">
                             <form action="/action_page.php">
                                 <div class="form-group">
-                                    <label for="email">Email address:</label>
+                                    <label for="email">Email:</label>
                                     <input type="email" class="form-control" id="email">
                                 </div>
                                 <div class="form-group">
-                                    <label for="pwd">Password:</label>
+                                    <label for="pwd">Parole:</label>
                                     <input type="password" class="form-control" id="pwd">
                                 </div>
                                 <div class="checkbox">
-                                    <label><input type="checkbox"> Remember me</label>
+                                    <label><input type="checkbox">Atcēreties</label>
                                 </div>
-                                <button type="submit" class="btn btn-default">Submit</button>
+                                <button type="submit" class="btn btn-default">Sūtīt</button>
                             </form>
                     </div>
                     <hr>
+                    <header class="heading">Atsauksme</header>
                     <div class="container signin">
                         <form action="login" method="post">
                         <div class="form-group">
